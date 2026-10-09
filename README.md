@@ -1,4 +1,4 @@
-# 🐕 CanineVision AI // Neural Dog Breed Bio-Scanner
+# 🐕 Dog Breed Classification
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11" />
@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <b>An end-to-end deep learning bio-scanner capable of classifying 120 canine breeds in real-time with sub-50ms inference latency, cyberpunk holographic telemetry, and rich encyclopedic breed dossiers.</b>
+  <b>A deep learning web application to classify 120 dog breeds in real time using MobileNetV2 transfer learning, interactive visual scanner, and breed intelligence details.</b>
 </p>
 
 <p align="center">
-  <a href="https://your-caninevision-demo.vercel.app">
+  <a href="https://your-live-demo.vercel.app">
     <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-00f5d4?style=for-the-badge&labelColor=060913&color=00f5d4" alt="Live Demo" height="40" />
   </a>
 </p>
@@ -23,59 +23,49 @@
 
 ## 🌟 Key Highlights
 
-- **⚡ Holographic Laser Bio-Scanner**: Real-time laser sweep animation, target reticles (`[ + ]`), coordinates lock, and dynamic tensor telemetry.
-- **🧬 120 Canine Breeds**: Fine-tuned MobileNetV2 architecture trained on the Stanford Dogs dataset covering 120 international breeds.
-- **📊 Deep Intelligence Dossiers**: Beyond raw percentages—presents origin country, AKC category, life expectancy, documented temperaments, and interactive trait meters (Energy, Trainability, Friendliness).
-- **🔊 Native Web Audio FX**: Custom sci-fi synthesizers (tactile blips, target lock chime, and celebratory fanfare) created natively via Web Audio API with zero external audio assets.
-- **📷 Multi-Modal Inputs**: Drag-and-drop image uploads, live webcam optic capture, and instant 1-click test samples (Husky, Golden Retriever, German Shepherd, Pug, French Bulldog).
-- **🌐 Zero-Cost Cloud Deployment**: Decoupled architecture ready for 1-click deployment on **Hugging Face Spaces** (Backend CPU) and **Vercel** (Frontend Edge CDN).
+- **⚡ Visual Laser Scanner**: Real-time laser sweep animation and target HUD reticles while processing images.
+- **🐕 120 Dog Breeds**: MobileNetV2 architecture trained on the Stanford Dogs dataset covering 120 breeds.
+- **📊 Detailed Breed Dossiers**: Displays origin, AKC category, life expectancy, documented temperaments, and interactive trait meters (Energy, Trainability).
+- **📷 Flexible Inputs**: Drag-and-drop file upload, live webcam capture, and 1-click test dogs (Husky, Golden Retriever, German Shepherd, Pug, French Bulldog).
+- **🌐 100% Free Cloud Deployment**: Ready for 1-click deployment on **Hugging Face Spaces** (Backend) and **Vercel** (Frontend).
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ Architecture
 
 ```mermaid
-flowchart TD
-    subgraph Client ["Client Layer (React 18 + Vite)"]
-        UI["Cyber Glassmorphic Interface"]
-        Audio["Web Audio Synthesizer"]
-        Optic["Webcam & Image Dropzone"]
-        HUD["Laser Scanning Canvas & HUD"]
+flowchart LR
+    subgraph Frontend ["Frontend (React 18 + Vite)"]
+        UI["Modern Web Interface"]
+        Input["Upload / Webcam / Sample Dogs"]
+        Scan["Laser Sweep & HUD"]
     end
 
-    subgraph API ["Inference Service (FastAPI)"]
-        Router["/api/predict & /api/breeds"]
+    subgraph Backend ["Backend (FastAPI)"]
+        API["/api/predict & /api/breeds"]
         Pre["224x224 RGB Normalizer"]
     end
 
-    subgraph ML ["Neural Engine (TensorFlow)"]
-        Net["MobileNetV2 Transfer Learning"]
-        Head["Top-K Softmax Classifier (120 Classes)"]
+    subgraph ML ["Model (TensorFlow)"]
+        TF["MobileNetV2 (120 Classes)"]
     end
 
-    subgraph Data ["Knowledge Graph"]
-        Dossier["Breed Intelligence Dossiers"]
-    end
-
-    Optic --> HUD --> Router
-    Router --> Pre --> Net --> Head
-    Head --> Dossier
-    Dossier --> UI
-    UI --> Audio
+    Input --> Scan --> API
+    API --> Pre --> TF
+    TF --> UI
 ```
 
 ---
 
-## 🔬 Model & Performance Specifications
+## 🔬 Model Specifications
 
-| Metric | Specification |
+| Property | Details |
 | :--- | :--- |
-| **Base Architecture** | MobileNetV2 (`mobilenet_v2_130_224`) via TensorFlow Hub |
+| **Model** | MobileNetV2 (`mobilenet_v2_130_224`) Transfer Learning |
 | **Input Shape** | `(1, 224, 224, 3)` normalized to $[0, 1]$ |
-| **Number of Classes** | 120 Dog Breeds |
-| **Model Size** | ~23.4 MB (`.h5` weights) |
-| **Inference Latency** | ~35ms – 55ms (CPU) / ~12ms (GPU) |
-| **Dataset** | Stanford Dogs Dataset (Kaggle Dog Breed Identification) |
+| **Total Classes** | 120 Dog Breeds |
+| **Model File** | `models/20261009-*.h5` (~23.4 MB) |
+| **Dataset** | Stanford Dogs Dataset / Kaggle Dog Breed Identification |
 
 ---
 
@@ -83,84 +73,66 @@ flowchart TD
 
 ```text
 ├── backend/
-│   ├── main.py              # FastAPI application with CORS and prediction routes
-│   ├── inference.py         # Image preprocessing, model loading & top-k ranking
-│   ├── breeds.json          # 120 Stanford breed labels
-│   ├── breed_info.json      # Curated breed traits, temperaments & origins
-│   ├── requirements.txt     # Production Python dependencies
-│   └── Dockerfile           # Docker container for Hugging Face Spaces / Render
+│   ├── main.py              # FastAPI server with prediction routes
+│   ├── inference.py         # Image preprocessing, model loading & top-5 ranking
+│   ├── breeds.json          # 120 dog breed class labels
+│   ├── breed_info.json      # Breed traits, temperaments & origins
+│   ├── requirements.txt     # Python dependencies
+│   └── Dockerfile           # Docker configuration for deployment
 ├── frontend/
 │   ├── src/
-│   │   ├── App.jsx          # Cyber holographic UI & bio-scanner
-│   │   ├── audio.js         # Native Web Audio sci-fi synthesizer
-│   │   ├── style.css        # Glassmorphic cyber theme & laser animation
-│   │   └── main.jsx         # Vite entry point
-│   ├── index.html           # HTML template with Space Grotesk typography
-│   ├── package.json         # React 18, Lucide & Canvas Confetti
-│   └── vercel.json          # SPA routing config for Vercel
+│   │   ├── App.jsx          # Clean React interface & scanner
+│   │   ├── style.css        # Responsive dark theme & animations
+│   │   ├── audio.js         # Sound effects
+│   │   └── main.jsx         # Entry point
+│   ├── index.html           # HTML template
+│   └── vercel.json          # Vercel deployment configuration
 ├── models/
-│   └── 20261009-*.h5        # Trained MobileNetV2 weights (23.4 MB)
-├── dataset/                 # Sample evaluation assets
-├── start_dev.bat            # 1-click Windows development launcher
+│   └── *.h5                 # Trained model weights (23.4 MB)
+├── dataset/                 # Evaluation images
+├── start_dev.bat            # 1-Click Windows development launcher
 ├── .gitignore               # Clean git exclusion rules
 └── README.md                # Project documentation
 ```
 
 ---
 
-## 🚀 Quickstart (Local Development)
+## 🚀 Quickstart (Local Run)
 
-### Option A: 1-Click Launch (Windows)
-Double-click `start_dev.bat` in the repository root. This will launch both the FastAPI backend and Vite frontend automatically!
+### 1-Click Launch (Windows)
+Double-click `start_dev.bat` in the root folder. Both backend and frontend will start automatically.
 
-### Option B: Manual Setup
+### Manual Launch
 
-#### 1. Start the Backend API
+**1. Start Backend:**
 ```bash
-# Optional: create and activate a Python 3.11 virtual environment
-python -m venv venv
-venv\Scripts\activate      # On Windows
-# source venv/bin/activate  # On macOS/Linux
-
-# Install requirements
-pip install -r backend/requirements.txt
-
-# Run FastAPI server
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 ```
-*Backend API docs will be live at `http://localhost:8000/docs`.*
+*API documentation available at `http://localhost:8000/docs`*
 
-#### 2. Start the Frontend
+**2. Start Frontend:**
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
-*Frontend will be live at `http://localhost:5173`.*
+*UI available at `http://localhost:5173`*
 
 ---
 
-## ☁️ Deployment Guide (100% Free 24/7 Hosting)
+## ☁️ Deployment Guide
 
-### 1. Deploy the Backend to Hugging Face Spaces (Free 16GB CPU)
-1. Sign up on [Hugging Face](https://huggingface.co/) and click **New Space**.
-2. Select **Docker** as the Space SDK and set visibility to **Public**.
-3. Upload the contents of the `backend/` folder plus your trained `.h5` model into `backend/models/`.
-4. Hugging Face will automatically build and deploy your container using `backend/Dockerfile`.
-5. Copy your Space's public URL (e.g., `https://yourname-caninevision.hf.space`).
+### 1. Backend (Hugging Face Spaces)
+1. Create a **New Space** on Hugging Face with SDK: **Docker**.
+2. Push or upload the `backend/` folder and `models/` folder.
+3. Hugging Face builds the Docker container and provides a free public URL.
 
-### 2. Deploy the Frontend to Vercel
-1. Push your repository to GitHub.
-2. Sign up on [Vercel](https://vercel.com/) and click **Add New Project**.
-3. Import your GitHub repository.
-4. Set **Root Directory** to `frontend`.
-5. Under **Environment Variables**, add:
-   - `VITE_API_URL` = `https://yourname-caninevision.hf.space` (your backend URL)
-6. Click **Deploy**. Your live demo is now active globally with zero cold starts!
+### 2. Frontend (Vercel)
+1. Import your GitHub repository into Vercel.
+2. Set **Root Directory** to `frontend`.
+3. Add environment variable `VITE_API_URL` set to your backend URL.
+4. Click **Deploy**.
 
 ---
 
-## 🤝 Contributing & License
-
-Contributions, stars, and feedback are always welcome!
-This project is licensed under the MIT License.
+## 📄 License
+MIT License
