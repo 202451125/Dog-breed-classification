@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+:root {
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  
+  --bg-deep: #060913;
+  --bg-card: rgba(13, 20, 36, 0.75);
+  --bg-card-hover: rgba(19, 31, 56, 0.85);
+  
+  --cyan: #00f5d4;
+  --cyan-glow: rgba(0, 245, 212, 0.35);
+  --cyan-subtle: rgba(0, 245, 212, 0.12);
+  
+  --purple: #9d4edd;
+  --purple-glow: rgba(157, 78, 221, 0.35);
+  
+  --rose: #ff007f;
+  --amber: #ffb703;
+  --green: #10b981;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: #e2e8f0;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 245, 212, 0.08) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(157, 78, 221, 0.08) 0%, transparent 50%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(0, 245, 212, 0.25);
+  box-shadow: 0 15px 35px -10px rgba(0, 245, 212, 0.15);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Neon Glow Accents */
+.glow-cyan {
+  text-shadow: 0 0 12px var(--cyan);
+}
+
+.glow-purple {
+  text-shadow: 0 0 12px var(--purple);
+}
+
+.border-glow-cyan {
+  border-color: var(--cyan);
+  box-shadow: 0 0 20px var(--cyan-glow);
+}
+
+/* Laser Scanner Animation */
+@keyframes laserSweep {
+  0% {
+    top: 0%;
+    opacity: 0.8;
+  }
+  50% {
+    top: 96%;
+    opacity: 1;
+  }
+  100% {
+    top: 0%;
+    opacity: 0.8;
+  }
+}
+
+.laser-beam {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, #00f5d4 25%, #ffffff 50%, #00f5d4 75%, transparent 100%);
+  box-shadow: 0 0 15px 3px rgba(0, 245, 212, 0.8), 0 0 30px 6px rgba(0, 245, 212, 0.4);
+  animation: laserSweep 2s ease-in-out infinite;
+  z-index: 25;
+}
+
+.laser-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(0, 245, 212, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 212, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: 20;
+}
+
+/* Radar Target Reticles */
+.hud-corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: var(--cyan);
+  pointer-events: none;
+  z-index: 30;
+}
+
+.hud-tl { top: 12px; left: 12px; border-top: 2px solid var(--cyan); border-left: 2px solid var(--cyan); }
+.hud-tr { top: 12px; right: 12px; border-top: 2px solid var(--cyan); border-right: 2px solid var(--cyan); }
+.hud-bl { bottom: 12px; left: 12px; border-bottom: 2px solid var(--cyan); border-left: 2px solid var(--cyan); }
+.hud-br { bottom: 12px; right: 12px; border-bottom: 2px solid var(--cyan); border-right: 2px solid var(--cyan); }
+
+/* Buttons */
+.btn-cyber {
+  background: linear-gradient(135deg, rgba(0, 245, 212, 0.15), rgba(157, 78, 221, 0.15));
+  border: 1px solid rgba(0, 245, 212, 0.4);
+  color: #00f5d4;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-cyber:hover {
+  background: linear-gradient(135deg, rgba(0, 245, 212, 0.3), rgba(157, 78, 221, 0.3));
+  border-color: #00f5d4;
+  box-shadow: 0 0 20px rgba(0, 245, 212, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-cyber:active {
+  transform: translateY(1px);
+}
+
+/* Monospace Telemetry */
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 245, 212, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 245, 212, 0.5);
+}

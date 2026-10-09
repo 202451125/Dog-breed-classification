@@ -1,0 +1,1922 @@
+{
+  "affenpinscher": {
+    "name": "Affenpinscher",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "afghan_hound": {
+    "name": "Afghan Hound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "african_hunting_dog": {
+    "name": "African Hunting Dog",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "airedale": {
+    "name": "Airedale",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "american_staffordshire_terrier": {
+    "name": "American Staffordshire Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "appenzeller": {
+    "name": "Appenzeller",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "australian_terrier": {
+    "name": "Australian Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "basenji": {
+    "name": "Basenji",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "basset": {
+    "name": "Basset",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "beagle": {
+    "name": "Beagle",
+    "origin": "United Kingdom",
+    "group": "Hound",
+    "temperament": [
+      "Curious",
+      "Merry",
+      "Friendly",
+      "Determined"
+    ],
+    "lifespan": "12 - 15 years",
+    "energy": 80,
+    "trainability": 72,
+    "friendliness": 94,
+    "description": "Sturdy hunting hound with an incredible sense of smell and a merry, happy-go-lucky personality."
+  },
+  "bedlington_terrier": {
+    "name": "Bedlington Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "bernese_mountain_dog": {
+    "name": "Bernese Mountain Dog",
+    "origin": "Historical lineage",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished working breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "black-and-tan_coonhound": {
+    "name": "Black And Tan Coonhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "blenheim_spaniel": {
+    "name": "Blenheim Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "bloodhound": {
+    "name": "Bloodhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "bluetick": {
+    "name": "Bluetick",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "border_collie": {
+    "name": "Border Collie",
+    "origin": "Scotland / England",
+    "group": "Herding",
+    "temperament": [
+      "Intelligent",
+      "Energetic",
+      "Keen",
+      "Alert"
+    ],
+    "lifespan": "12 - 15 years",
+    "energy": 98,
+    "trainability": 99,
+    "friendliness": 85,
+    "description": "Universally regarded as the most intelligent canine breed. Unmatched agility, intense work ethic, and herding mastery."
+  },
+  "border_terrier": {
+    "name": "Border Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "borzoi": {
+    "name": "Borzoi",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "boston_bull": {
+    "name": "Boston Bull",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "bouvier_des_flandres": {
+    "name": "Bouvier Des Flandres",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "boxer": {
+    "name": "Boxer",
+    "origin": "Historical lineage",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished working breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "brabancon_griffon": {
+    "name": "Brabancon Griffon",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "briard": {
+    "name": "Briard",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "brittany_spaniel": {
+    "name": "Brittany Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "bull_mastiff": {
+    "name": "Bull Mastiff",
+    "origin": "Historical lineage",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished working breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "cairn": {
+    "name": "Cairn",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "cardigan": {
+    "name": "Cardigan",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "chesapeake_bay_retriever": {
+    "name": "Chesapeake Bay Retriever",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "chihuahua": {
+    "name": "Chihuahua",
+    "origin": "Mexico",
+    "group": "Toy",
+    "temperament": [
+      "Graceful",
+      "Sassy",
+      "Alert",
+      "Devoted"
+    ],
+    "lifespan": "14 - 18 years",
+    "energy": 60,
+    "trainability": 70,
+    "friendliness": 75,
+    "description": "Tiny dog with huge personality! National symbol of Mexico and one of the oldest breeds in the Americas."
+  },
+  "chow": {
+    "name": "Chow",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "clumber": {
+    "name": "Clumber",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "cocker_spaniel": {
+    "name": "Cocker Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "collie": {
+    "name": "Collie",
+    "origin": "Historical lineage",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished working breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "curly-coated_retriever": {
+    "name": "Curly Coated Retriever",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "dandie_dinmont": {
+    "name": "Dandie Dinmont",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "dhole": {
+    "name": "Dhole",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "dingo": {
+    "name": "Dingo",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "doberman": {
+    "name": "Doberman",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "english_foxhound": {
+    "name": "English Foxhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "english_setter": {
+    "name": "English Setter",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "english_springer": {
+    "name": "English Springer",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "entlebucher": {
+    "name": "Entlebucher",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "eskimo_dog": {
+    "name": "Eskimo Dog",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "flat-coated_retriever": {
+    "name": "Flat Coated Retriever",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "french_bulldog": {
+    "name": "French Bulldog",
+    "origin": "France / England",
+    "group": "Non-Sporting",
+    "temperament": [
+      "Affectionate",
+      "Playful",
+      "Easygoing",
+      "Alert"
+    ],
+    "lifespan": "10 - 12 years",
+    "energy": 50,
+    "trainability": 75,
+    "friendliness": 92,
+    "description": "Compact and muscular with iconic bat ears. Perfect companions known for quiet charm and comical personality."
+  },
+  "german_shepherd": {
+    "name": "German Shepherd",
+    "origin": "Germany",
+    "group": "Herding",
+    "temperament": [
+      "Courageous",
+      "Confident",
+      "Smart",
+      "Protective"
+    ],
+    "lifespan": "9 - 13 years",
+    "energy": 90,
+    "trainability": 98,
+    "friendliness": 80,
+    "description": "Renowned for supreme working ability, intelligence, and loyalty. Often stars in search & rescue and police work."
+  },
+  "german_short-haired_pointer": {
+    "name": "German Short Haired Pointer",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "giant_schnauzer": {
+    "name": "Giant Schnauzer",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "golden_retriever": {
+    "name": "Golden Retriever",
+    "origin": "Scotland",
+    "group": "Sporting",
+    "temperament": [
+      "Intelligent",
+      "Friendly",
+      "Devoted",
+      "Playful"
+    ],
+    "lifespan": "10 - 12 years",
+    "energy": 85,
+    "trainability": 95,
+    "friendliness": 98,
+    "description": "One of the most popular dog breeds worldwide, celebrated for their gentle disposition, intelligence, and golden coat."
+  },
+  "gordon_setter": {
+    "name": "Gordon Setter",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "great_dane": {
+    "name": "Great Dane",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "great_pyrenees": {
+    "name": "Great Pyrenees",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "greater_swiss_mountain_dog": {
+    "name": "Greater Swiss Mountain Dog",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "groenendael": {
+    "name": "Groenendael",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "ibizan_hound": {
+    "name": "Ibizan Hound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "irish_setter": {
+    "name": "Irish Setter",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "irish_terrier": {
+    "name": "Irish Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "irish_water_spaniel": {
+    "name": "Irish Water Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "irish_wolfhound": {
+    "name": "Irish Wolfhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "italian_greyhound": {
+    "name": "Italian Greyhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "japanese_spaniel": {
+    "name": "Japanese Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "keeshond": {
+    "name": "Keeshond",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "kelpie": {
+    "name": "Kelpie",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "kerry_blue_terrier": {
+    "name": "Kerry Blue Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "komondor": {
+    "name": "Komondor",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "kuvasz": {
+    "name": "Kuvasz",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "labrador_retriever": {
+    "name": "Labrador Retriever",
+    "origin": "Newfoundland (Canada)",
+    "group": "Sporting",
+    "temperament": [
+      "Outgoing",
+      "Even-tempered",
+      "Gentle",
+      "Agile"
+    ],
+    "lifespan": "10 - 12 years",
+    "energy": 88,
+    "trainability": 96,
+    "friendliness": 99,
+    "description": "World-famous family companion and versatile water retriever known for warm, affectionate eyes and waterproof coat."
+  },
+  "lakeland_terrier": {
+    "name": "Lakeland Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "leonberg": {
+    "name": "Leonberg",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "lhasa": {
+    "name": "Lhasa",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "malamute": {
+    "name": "Malamute",
+    "origin": "Historical lineage",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished working breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "malinois": {
+    "name": "Malinois",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "maltese_dog": {
+    "name": "Maltese Dog",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "mexican_hairless": {
+    "name": "Mexican Hairless",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "miniature_pinscher": {
+    "name": "Miniature Pinscher",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "miniature_poodle": {
+    "name": "Miniature Poodle",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "miniature_schnauzer": {
+    "name": "Miniature Schnauzer",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "newfoundland": {
+    "name": "Newfoundland",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "norfolk_terrier": {
+    "name": "Norfolk Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "norwegian_elkhound": {
+    "name": "Norwegian Elkhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "norwich_terrier": {
+    "name": "Norwich Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "old_english_sheepdog": {
+    "name": "Old English Sheepdog",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "otterhound": {
+    "name": "Otterhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "papillon": {
+    "name": "Papillon",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "pekinese": {
+    "name": "Pekinese",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "pembroke": {
+    "name": "Pembroke",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "pomeranian": {
+    "name": "Pomeranian",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "pug": {
+    "name": "Pug",
+    "origin": "China",
+    "group": "Toy",
+    "temperament": [
+      "Charming",
+      "Loving",
+      "Mischievous",
+      "Docile"
+    ],
+    "lifespan": "12 - 15 years",
+    "energy": 55,
+    "trainability": 68,
+    "friendliness": 95,
+    "description": "The clown of the dog world with a wrinkled brow and curled tail. Bred to be regal lap dogs for ancient emperors."
+  },
+  "redbone": {
+    "name": "Redbone",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "rhodesian_ridgeback": {
+    "name": "Rhodesian Ridgeback",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "rottweiler": {
+    "name": "Rottweiler",
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Fearless",
+      "Calm",
+      "Self-Assured"
+    ],
+    "lifespan": "9 - 10 years",
+    "energy": 78,
+    "trainability": 90,
+    "friendliness": 75,
+    "description": "A robust working dog of great strength descended from Roman drover dogs. A gentle playmate and devoted guardian."
+  },
+  "saint_bernard": {
+    "name": "Saint Bernard",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "saluki": {
+    "name": "Saluki",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "samoyed": {
+    "name": "Samoyed",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "schipperke": {
+    "name": "Schipperke",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "scotch_terrier": {
+    "name": "Scotch Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "scottish_deerhound": {
+    "name": "Scottish Deerhound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "sealyham_terrier": {
+    "name": "Sealyham Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "shetland_sheepdog": {
+    "name": "Shetland Sheepdog",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "shih-tzu": {
+    "name": "Shih Tzu",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "siberian_husky": {
+    "name": "Siberian Husky",
+    "origin": "Siberia (Russia)",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Outgoing",
+      "Mischievous",
+      "Vocal"
+    ],
+    "lifespan": "12 - 14 years",
+    "energy": 95,
+    "trainability": 70,
+    "friendliness": 90,
+    "description": "Famous for striking eyes and endurance as Arctic sled dogs. Incredibly energetic, social, and communicative."
+  },
+  "silky_terrier": {
+    "name": "Silky Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "soft-coated_wheaten_terrier": {
+    "name": "Soft Coated Wheaten Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "staffordshire_bullterrier": {
+    "name": "Staffordshire Bullterrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "standard_poodle": {
+    "name": "Standard Poodle",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "standard_schnauzer": {
+    "name": "Standard Schnauzer",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "sussex_spaniel": {
+    "name": "Sussex Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "tibetan_mastiff": {
+    "name": "Tibetan Mastiff",
+    "origin": "Historical lineage",
+    "group": "Working",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished working breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "tibetan_terrier": {
+    "name": "Tibetan Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "toy_poodle": {
+    "name": "Toy Poodle",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "toy_terrier": {
+    "name": "Toy Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "vizsla": {
+    "name": "Vizsla",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "walker_hound": {
+    "name": "Walker Hound",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "weimaraner": {
+    "name": "Weimaraner",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "welsh_springer_spaniel": {
+    "name": "Welsh Springer Spaniel",
+    "origin": "Historical lineage",
+    "group": "Sporting",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished sporting breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "west_highland_white_terrier": {
+    "name": "West Highland White Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "whippet": {
+    "name": "Whippet",
+    "origin": "Historical lineage",
+    "group": "Companion",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished companion breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "wire-haired_fox_terrier": {
+    "name": "Wire Haired Fox Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  },
+  "yorkshire_terrier": {
+    "name": "Yorkshire Terrier",
+    "origin": "Historical lineage",
+    "group": "Hound",
+    "temperament": [
+      "Loyal",
+      "Alert",
+      "Energetic",
+      "Affectionate"
+    ],
+    "lifespan": "10 - 14 years",
+    "energy": 75,
+    "trainability": 80,
+    "friendliness": 85,
+    "description": "A distinguished hound breed known for its distinctive coat, alert expression, and loyal disposition."
+  }
+}
