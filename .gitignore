@@ -1,13 +1,17 @@
 # Python virtual environments & bytecode
 venv/
+venv*/
 .venv/
 env/
 __pycache__/
 *.py[cod]
 *$py.class
 *.ipynb_checkpoints/
+*.whl
+scratch*.ps1
 
-# Duplicate local model copy in backend
+# Large raw H5 weights (TFLite model is used for deployment)
+models/*.h5
 backend/models/
 
 # Frontend dependencies and builds

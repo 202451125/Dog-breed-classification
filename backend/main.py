@@ -13,7 +13,7 @@ except ImportError:
     from inference import predict_breed, CLASS_NAMES, BREED_INFO, MODEL_PATH, _model
 
 app = FastAPI(
-    title="CanineVision Neural Engine",
+    title="Dog Breed Classification",
     description="High-performance deep learning API for 120-class dog breed classification using MobileNetV2.",
     version="1.0.0"
 )
@@ -34,7 +34,7 @@ class Base64Payload(BaseModel):
 def root():
     return {
         "status": "online",
-        "service": "CanineVision Neural Engine",
+        "service": "Dog Breed Classification",
         "total_classes": len(CLASS_NAMES),
         "model_loaded": _model is not None,
         "endpoints": {

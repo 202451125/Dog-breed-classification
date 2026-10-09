@@ -1,5 +1,7 @@
-tensorflow>=2.10.0
-numpy
-Pillow
-Pandas
-matplotlib
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+pillow>=10.0.0
+numpy>=1.24.0
+pydantic>=2.0.0
+ai-edge-litert>=2.0.0
