@@ -1,57 +1,52 @@
-# 🐕 Dog Breed Classification
+# Dog Breed Classification
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11_|_3.12_|_3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TensorFlow_Lite-LiteRT-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Lite" />
-  <img src="https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" />
-  <img src="https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Classes-120_Breeds-10b981?style=for-the-badge" alt="120 Breeds" />
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Python-3.11_|_3.12_|_3.13-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TensorFlow_Lite-LiteRT-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow Lite" />
+  <img src="https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18" />
+  <img src="https://img.shields.io/badge/Vite-5.x-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Classes-120_Breeds-10b981?style=flat-square" alt="120 Breeds" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" />
 </p>
 
 <p align="center">
-  <b>An end-to-end deep learning system and web application that classifies 120 dog breeds in real-time. Built with MobileNetV2 transfer learning, optimized via TensorFlow Lite (LiteRT), and served through a responsive React web interface with audio feedback and animated laser scanning.</b>
+  An end-to-end deep learning system and web application that classifies 120 dog breeds in real time. Built using MobileNetV2 transfer learning, optimized via TensorFlow Lite (LiteRT), and served through a responsive React web interface with audio telemetry and interactive visual scanning.
 </p>
 
 <p align="center">
-  <a href="https://your-live-demo.vercel.app">
-    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-00f5d4?style=for-the-badge&labelColor=060913&color=00f5d4" alt="Live Demo" height="40" />
+  <a href="https://dog-breed-classification-6e66tystw-sahithi8.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-Vercel-00f5d4?style=for-the-badge&labelColor=060913&color=00f5d4" alt="Live Demo" height="38" />
+  </a>
+  <a href="https://dog-breed-classification-yk8t.onrender.com/docs">
+    <img src="https://img.shields.io/badge/REST_API-Swagger_Docs-3b82f6?style=for-the-badge&labelColor=060913&color=3b82f6" alt="API Docs" height="38" />
   </a>
 </p>
 
 ---
 
-## 📑 Table of Contents
-- [🌟 Key Highlights](#-key-highlights)
-- [🏗️ System Architecture](#️-system-architecture)
-- [📊 Deep Learning Insights & Visualizations](#-deep-learning-insights--visualizations)
-  - [1. Dataset & Class Distribution](#1-dataset--class-distribution)
-  - [2. Preprocessing & Batch Pipelines](#2-preprocessing--batch-pipelines)
-  - [3. Model Prediction Analysis](#3-model-prediction-analysis)
-  - [4. Multi-Sample Confidence Breakdown](#4-multi-sample-confidence-breakdown)
-  - [5. Confusion Matrix (120 Classes)](#5-confusion-matrix-120-classes)
-  - [6. Real-World Custom Image Testing](#6-real-world-custom-image-testing)
-- [🔬 Model Specifications](#-model-specifications)
-- [📁 Repository Structure](#-repository-structure)
-- [🚀 Quickstart (Run Locally)](#-quickstart-run-locally)
-- [🔌 API Endpoints](#-api-endpoints)
-- [☁️ Free Cloud Deployment](#️-free-cloud-deployment)
-- [📄 License](#-license)
+## Live Deployments
+
+| Component | Platform | URL | Status |
+| :--- | :--- | :--- | :--- |
+| **Web Application** | Vercel | [dog-breed-classification-6e66tystw-sahithi8.vercel.app](https://dog-breed-classification-6e66tystw-sahithi8.vercel.app) | Online |
+| **Backend API** | Render | [dog-breed-classification-yk8t.onrender.com](https://dog-breed-classification-yk8t.onrender.com) | Online |
+| **Interactive API Docs** | Swagger | [dog-breed-classification-yk8t.onrender.com/docs](https://dog-breed-classification-yk8t.onrender.com/docs) | Online |
+| **API Health Check** | Render | [dog-breed-classification-yk8t.onrender.com/api/health](https://dog-breed-classification-yk8t.onrender.com/api/health) | Online |
 
 ---
 
-## 🌟 Key Highlights
+## Overview
 
-- **⚡ Real-Time Neural Inference**: Optimized to a 22 MB TensorFlow Lite (LiteRT) flatbuffer executing in **< 250 ms** on standard CPU.
-- **🐕 120 Stanford Dog Breeds**: Comprehensive multi-class classification covering Golden Retrievers, Siberian Huskies, German Shepherds, Pugs, and 116 more purebreds.
-- **📊 Detailed Breed Dossiers**: Every prediction surfaces origin, AKC breed group, expected lifespan, and interactive trait meters (Energy, Trainability, Friendliness).
-- **📷 Versatile Input Pipeline**: Drag-and-drop image upload, real-time webcam snapshot capture, or 1-click curated test dogs.
-- **🎨 Interactive Visual HUD**: Animated laser scanner sweeping across images with spatial targeting brackets and native Web Audio synthesizer feedback.
+- **Real-Time Neural Inference**: Optimized to a 22 MB TensorFlow Lite (LiteRT) flatbuffer executing in under 250 ms on CPU.
+- **120 Stanford Dog Breeds**: Multi-class classification covering Golden Retrievers, Siberian Huskies, German Shepherds, Pugs, and 116 additional breeds.
+- **Breed Intelligence Dossiers**: Each prediction surfaces breed origin, AKC classification group, expected lifespan, and trait meters (Energy, Trainability, Friendliness).
+- **Flexible Input Pipeline**: Supports drag-and-drop file upload, webcam snapshot capture, or 1-click curated test dog samples.
+- **Interactive Visual HUD**: Animated laser scanner sweeping across uploaded images with spatial targeting brackets and native Web Audio synthesizer feedback.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -78,7 +73,7 @@ flowchart LR
 
 ---
 
-## 📊 Deep Learning Insights & Visualizations
+## Exploratory Data Analysis & Model Insights
 
 The model was developed, trained, and evaluated on the **Stanford Dogs Dataset** (10,222 images across 120 classes). Below are key empirical insights from the training process:
 
@@ -113,7 +108,7 @@ The model outputs a 120-element softmax probability distribution. High confidenc
 ---
 
 ### 4. Multi-Sample Confidence Breakdown
-Evaluating validation batches demonstrates consistent high-confidence discrimination across both sporting, working, and toy breeds.
+Evaluating validation batches demonstrates consistent high-confidence discrimination across sporting, working, and toy breeds.
 
 <p align="center">
   <img src="docs/assets/multisample_confidence_grid.png" alt="Multi-Sample Confidence Grid" width="850" />
@@ -122,7 +117,7 @@ Evaluating validation batches demonstrates consistent high-confidence discrimina
 
 ---
 
-### 5. Confusion Matrix (120 Classes)
+### 5. 120-Class Confusion Matrix
 A $120 \times 120$ confusion matrix was computed over validation data. The strong diagonal confirms robust classification accuracy across the entire breed spectrum, with minimal confusion isolated between visually similar breeds (e.g. Norfolk vs. Norwich Terrier).
 
 <p align="center">
@@ -133,7 +128,7 @@ A $120 \times 120$ confusion matrix was computed over validation data. The stron
 ---
 
 ### 6. Real-World Custom Image Testing
-Testing on unseen real-world photographs demonstrates zero-shot generalization with high prediction fidelity and minimal false positives.
+Testing on unseen real-world photographs demonstrates generalization with high prediction fidelity and minimal false positives.
 
 <p align="center">
   <img src="docs/assets/custom_test_prediction.png" alt="Custom Test Prediction" width="700" />
@@ -142,7 +137,7 @@ Testing on unseen real-world photographs demonstrates zero-shot generalization w
 
 ---
 
-## 🔬 Model Specifications
+## Model Specifications
 
 | Parameter | Specification |
 | :--- | :--- |
@@ -152,12 +147,12 @@ Testing on unseen real-world photographs demonstrates zero-shot generalization w
 | **Number of Classes** | 120 Dog Breeds |
 | **Runtime Format** | TensorFlow Lite (`models/dog_model.tflite`) |
 | **Model Size** | **22.0 MB** (optimized from ~200 MB `.h5` checkpoint) |
-| **Inference Latency** | **~230 ms** on CPU |
+| **Inference Latency** | **~116 ms** on cloud CPU |
 | **Frameworks** | TensorFlow, LiteRT, FastAPI, React 18 |
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── backend/
@@ -188,7 +183,7 @@ Testing on unseen real-world photographs demonstrates zero-shot generalization w
 
 ---
 
-## 🚀 Quickstart (Run Locally)
+## Local Development Setup
 
 ### Prerequisites
 - Python 3.10, 3.11, 3.12, or 3.13
@@ -208,7 +203,7 @@ pip install -r requirements.txt
 ```bash
 python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 ```
-*Interactive Swagger docs available at: `http://localhost:8000/docs`*
+*Interactive Swagger documentation available at: `http://localhost:8000/docs`*
 
 **3. Start the Frontend:**
 ```bash
@@ -220,7 +215,7 @@ npm run dev
 
 ---
 
-## 🔌 API Endpoints
+## API Reference
 
 ### `POST /api/predict`
 Accepts an image via `multipart/form-data` and returns the top-5 breed predictions with confidences and encyclopedic dossiers.
@@ -250,7 +245,7 @@ Accepts an image via `multipart/form-data` and returns the top-5 breed predictio
     }
   ],
   "telemetry": {
-    "latency_ms": 236.18,
+    "latency_ms": 116.49,
     "runtime": "TFLite CPU"
   }
 }
@@ -264,23 +259,21 @@ Checks API health, model loading state, and inference readiness.
 
 ---
 
-## ☁️ Free Cloud Deployment
+## Production Deployment
 
-### 1. Frontend on Vercel (100% Free)
-1. Push your repository to GitHub.
-2. In [Vercel](https://vercel.com), import your repository.
-3. Set **Root Directory** to `frontend`.
-4. Set the environment variable `VITE_API_URL` to your backend URL.
-5. Click **Deploy**.
+### Frontend (Vercel)
+1. Import repository on [Vercel](https://vercel.com).
+2. Set **Root Directory** to `frontend`.
+3. Set environment variable `VITE_API_URL` to `https://dog-breed-classification-yk8t.onrender.com`.
+4. Deploy.
 
-### 2. Backend on Render (100% Free)
-1. Create a **New Web Service** on [Render](https://render.com).
-2. Connect your GitHub repository.
-3. Build Command: `pip install -r requirements.txt`
-4. Start Command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
-5. Render deploys the 22 MB TFLite model cleanly within its free 512 MB tier.
+### Backend (Render)
+1. Create a new Web Service on [Render](https://render.com).
+2. Set Build Command: `pip install -r requirements.txt`.
+3. Set Start Command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`.
+4. Deploy on the free instance tier.
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
