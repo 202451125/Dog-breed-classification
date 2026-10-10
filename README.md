@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dog-breed-classification-6e66tystw-sahithi8.vercel.app">
+  <a href="https://dog-breed-classification-yk8t.onrender.com">
     <img src="https://img.shields.io/badge/Live_Demo-Launch_Application-00f5d4?style=for-the-badge&labelColor=060913&color=00f5d4" alt="Live Demo" height="42" />
   </a>
 </p>
@@ -24,8 +24,8 @@
 
 ## Live Application
 
-The complete web application is live and accessible at:
-- **Live Website:** [https://dog-breed-classification-6e66tystw-sahithi8.vercel.app](https://dog-breed-classification-6e66tystw-sahithi8.vercel.app)
+The complete full-stack web application is live and accessible at:
+- **Live Web App:** [https://dog-breed-classification-yk8t.onrender.com](https://dog-breed-classification-yk8t.onrender.com)
 
 ---
 

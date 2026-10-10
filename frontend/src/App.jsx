@@ -50,10 +50,10 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [apiOnline, setApiOnline] = useState(false);
 
-  const videoRef = useRef(null);
   const RENDER_BACKEND = 'https://dog-breed-classification-yk8t.onrender.com';
   const API_BASE = import.meta.env.VITE_API_URL || 
-    (typeof window !== 'undefined' && window.location.hostname === 'localhost' ? 'http://localhost:8000' : RENDER_BACKEND);
+    (typeof window !== 'undefined' && window.location.origin.includes('onrender.com') ? '' : 
+     (typeof window !== 'undefined' && window.location.hostname === 'localhost' ? 'http://localhost:8000' : RENDER_BACKEND));
 
   const toggleMute = () => {
     sound.muted = !muted;

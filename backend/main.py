@@ -4,6 +4,7 @@ import base64
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from typing import Optional
 
@@ -30,20 +31,41 @@ app.add_middleware(
 class Base64Payload(BaseModel):
     image: str
 
-@app.get("/")
-def root():
-    return {
-        "status": "online",
-        "service": "Dog Breed Classification",
-        "total_classes": len(CLASS_NAMES),
-        "model_loaded": _model is not None,
-        "endpoints": {
-            "predict_file": "POST /api/predict",
-            "predict_base64": "POST /api/predict-base64",
-            "breeds": "GET /api/breeds",
-            "health": "GET /api/health"
+# Path to built React frontend
+DIST_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+if not os.path.exists(DIST_DIR):
+    DIST_DIR = os.path.join(os.path.dirname(__file__), "dist")
+
+if os.path.exists(DIST_DIR):
+    assets_dir = os.path.join(DIST_DIR, "assets")
+    if os.path.exists(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+    @app.get("/")
+    def serve_index():
+        return FileResponse(os.path.join(DIST_DIR, "index.html"))
+
+    @app.get("/favicon.svg")
+    def serve_favicon():
+        fav = os.path.join(DIST_DIR, "favicon.svg")
+        if os.path.exists(fav):
+            return FileResponse(fav)
+        return FileResponse(os.path.join(DIST_DIR, "index.html"))
+else:
+    @app.get("/")
+    def root():
+        return {
+            "status": "online",
+            "service": "Dog Breed Classification",
+            "total_classes": len(CLASS_NAMES),
+            "model_loaded": _model is not None,
+            "endpoints": {
+                "predict_file": "POST /api/predict",
+                "predict_base64": "POST /api/predict-base64",
+                "breeds": "GET /api/breeds",
+                "health": "GET /api/health"
+            }
         }
-    }
 
 @app.get("/api/health")
 def health_check():
