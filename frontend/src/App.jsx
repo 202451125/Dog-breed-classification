@@ -49,7 +49,8 @@ export default function App() {
   const [allBreeds, setAllBreeds] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [apiOnline, setApiOnline] = useState(false);
-
+  const videoRef = useRef(null);
+  const fileInputRef = useRef(null);
   const RENDER_BACKEND = 'https://dog-breed-classification-yk8t.onrender.com';
   const API_BASE = import.meta.env.VITE_API_URL || 
     (typeof window !== 'undefined' && window.location.origin.includes('onrender.com') ? '' : 
