@@ -16,23 +16,16 @@
 
 <p align="center">
   <a href="https://dog-breed-classification-6e66tystw-sahithi8.vercel.app">
-    <img src="https://img.shields.io/badge/Live_Demo-Vercel-00f5d4?style=for-the-badge&labelColor=060913&color=00f5d4" alt="Live Demo" height="38" />
-  </a>
-  <a href="https://dog-breed-classification-yk8t.onrender.com/docs">
-    <img src="https://img.shields.io/badge/REST_API-Swagger_Docs-3b82f6?style=for-the-badge&labelColor=060913&color=3b82f6" alt="API Docs" height="38" />
+    <img src="https://img.shields.io/badge/Live_Demo-Launch_Application-00f5d4?style=for-the-badge&labelColor=060913&color=00f5d4" alt="Live Demo" height="42" />
   </a>
 </p>
 
 ---
 
-## Live Deployments
+## Live Application
 
-| Component | Platform | URL | Status |
-| :--- | :--- | :--- | :--- |
-| **Web Application** | Vercel | [dog-breed-classification-6e66tystw-sahithi8.vercel.app](https://dog-breed-classification-6e66tystw-sahithi8.vercel.app) | Online |
-| **Backend API** | Render | [dog-breed-classification-yk8t.onrender.com](https://dog-breed-classification-yk8t.onrender.com) | Online |
-| **Interactive API Docs** | Swagger | [dog-breed-classification-yk8t.onrender.com/docs](https://dog-breed-classification-yk8t.onrender.com/docs) | Online |
-| **API Health Check** | Render | [dog-breed-classification-yk8t.onrender.com/api/health](https://dog-breed-classification-yk8t.onrender.com/api/health) | Online |
+The complete web application is live and accessible at:
+- **Live Website:** [https://dog-breed-classification-6e66tystw-sahithi8.vercel.app](https://dog-breed-classification-6e66tystw-sahithi8.vercel.app)
 
 ---
 
